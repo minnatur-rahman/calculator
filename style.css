@@ -23,3 +23,10 @@ td{
     color: #fff1;
     border: 2px solid #191919;
 }
+input[type="button"] {
+    width: 90px;
+    height: 80px;
+    color: #fff;
+    background-color: black;
+    
+}

@@ -36,6 +36,15 @@
                 <td><input type="text" value="3" onclick="calculator()"></td>
                 <td><input type="text" value="*" onclick="calculator()"></td>
             </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="calculator()"></td>
+                <td><input type="text" value="." onclick="calculator()"></td>
+                <td><input type="text" value="/" onclick="calculator()"></td>
+                <td><input type="text" value="=" onclick="Answer()"></td>
+            </tr>
+
+
+
         </table>
     </div>
 
@@ -49,7 +58,10 @@
         function DeleteMe() {
 
         }
-        function calculator() {
+        function calculator(NewValue) {
+            document.getElementById("MyResult").value = NewValue;
+        }
+        function Answer() {
 
         }
     </script>
